@@ -1,0 +1,22 @@
+{
+  "name": "video-chat-app",
+  "version": "1.0.0",
+  "description": "1v1 video chat app with match system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "ejs": "^3.1.9",
+    "uuid": "^9.0.0",
+    "peer": "^0.6.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [],
+  "author": "mlink6783",
+  "license": "MIT"
+}
