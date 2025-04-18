@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>1v1 Random Video Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h3>Real video collection</h3>
+      <a class="link-button" href="https://1024terabox.com/s/12lmjTvhVswM7eZZg4q5AxA" target="_blank">Click to see</a>
+      <p class="online-count">Online Users: 300+</p>
+    </aside>
+
+    <main class="main-area">
+      <video id="localVideo" autoplay muted></video>
+      <video id="remoteVideo" autoplay></video>
+      <div class="controls">
+        <button id="startBtn">Start Chat</button>
+        <button id="nextBtn">Next</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
